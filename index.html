@@ -1,34 +1,25 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Front-end-developer-interview-questions by h5bp</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
+    <title>Front-end-developer-interview-questions by liu1084</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Front-end-developer-interview-questions</h1>
-        <p>A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.</p>
+    <section class="page-header">
+      <h1 class="project-name">Front-end-developer-interview-questions</h1>
+      <h2 class="project-tagline">A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.</h2>
+      <a href="https://github.com/liu1084/Front-end-Developer-Interview-Questions" class="btn">View on GitHub</a>
+      <a href="https://github.com/liu1084/Front-end-Developer-Interview-Questions/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/liu1084/Front-end-Developer-Interview-Questions/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-        <p class="view"><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions">View the Project on GitHub <small>h5bp/Front-end-Developer-Interview-Questions</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
+    <section class="main-content">
+      <h1>
 <a id="front-end-job-interview-questions" class="anchor" href="#front-end-job-interview-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Front-end Job Interview Questions</h1>
 
 <p>This file contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.</p>
@@ -200,7 +191,7 @@
 <li>Make this work:</li>
 </ul>
 
-<div class="highlight highlight-javascript"><pre>duplicate([<span class="pl-c1">1</span>,<span class="pl-c1">2</span>,<span class="pl-c1">3</span>,<span class="pl-c1">4</span>,<span class="pl-c1">5</span>]); <span class="pl-c">// [1,2,3,4,5,1,2,3,4,5]</span></pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-en">duplicate</span>([<span class="pl-c1">1</span>,<span class="pl-c1">2</span>,<span class="pl-c1">3</span>,<span class="pl-c1">4</span>,<span class="pl-c1">5</span>]); <span class="pl-c">// [1,2,3,4,5,1,2,3,4,5]</span></pre></div>
 
 <ul>
 <li>Why is it called a Ternary expression, what does the word "Ternary" indicate?</li>
@@ -260,24 +251,24 @@
 
 <p><em>Question: What is the value of <code>foo</code>?</em></p>
 
-<div class="highlight highlight-javascript"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-c1">10</span> <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">'</span>20<span class="pl-pds">'</span></span>;</pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-c1">10</span> <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">'</span>20<span class="pl-pds">'</span></span>;</pre></div>
 
 <p><em>Question: How would you make this work?</em></p>
 
-<div class="highlight highlight-javascript"><pre><span class="pl-c1">add</span>(<span class="pl-c1">2</span>, <span class="pl-c1">5</span>); <span class="pl-c">// 7</span>
-<span class="pl-c1">add</span>(<span class="pl-c1">2</span>)(<span class="pl-c1">5</span>); <span class="pl-c">// 7</span></pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-en">add</span>(<span class="pl-c1">2</span>, <span class="pl-c1">5</span>); <span class="pl-c">// 7</span>
+<span class="pl-en">add</span>(<span class="pl-c1">2</span>)(<span class="pl-c1">5</span>); <span class="pl-c">// 7</span></pre></div>
 
 <p><em>Question: What value is returned from the following statement?</em></p>
 
-<div class="highlight highlight-javascript"><pre><span class="pl-s"><span class="pl-pds">"</span>i'm a lasagna hog<span class="pl-pds">"</span></span>.<span class="pl-c1">split</span>(<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>).<span class="pl-c1">reverse</span>().<span class="pl-c1">join</span>(<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>);</pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-s"><span class="pl-pds">"</span>i'm a lasagna hog<span class="pl-pds">"</span></span>.<span class="pl-c1">split</span>(<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>).<span class="pl-c1">reverse</span>().<span class="pl-c1">join</span>(<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>);</pre></div>
 
 <p><em>Question: What is the value of <code>window.foo</code>?</em></p>
 
-<div class="highlight highlight-javascript"><pre>( <span class="pl-c1">window</span>.foo <span class="pl-k">||</span> ( <span class="pl-c1">window</span>.foo <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>bar<span class="pl-pds">"</span></span> ) );</pre></div>
+<div class="highlight highlight-source-js"><pre>( <span class="pl-smi">window</span>.<span class="pl-smi">foo</span> <span class="pl-k">||</span> ( <span class="pl-smi">window</span>.<span class="pl-smi">foo</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>bar<span class="pl-pds">"</span></span> ) );</pre></div>
 
 <p><em>Question: What is the outcome of the two alerts below?</em></p>
 
-<div class="highlight highlight-javascript"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello<span class="pl-pds">"</span></span>;
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello<span class="pl-pds">"</span></span>;
 (<span class="pl-k">function</span>() {
   <span class="pl-k">var</span> bar <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span> World<span class="pl-pds">"</span></span>;
   <span class="pl-c1">alert</span>(foo <span class="pl-k">+</span> bar);
@@ -286,15 +277,15 @@
 
 <p><em>Question: What is the value of <code>foo.length</code>?</em></p>
 
-<div class="highlight highlight-javascript"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> [];
-foo.<span class="pl-c1">push</span>(<span class="pl-c1">1</span>);
-foo.<span class="pl-c1">push</span>(<span class="pl-c1">2</span>);</pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> [];
+<span class="pl-smi">foo</span>.<span class="pl-c1">push</span>(<span class="pl-c1">1</span>);
+<span class="pl-smi">foo</span>.<span class="pl-c1">push</span>(<span class="pl-c1">2</span>);</pre></div>
 
 <p><em>Question: What is the value of <code>foo.x</code>?</em></p>
 
-<div class="highlight highlight-javascript"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> {n<span class="pl-k">:</span> <span class="pl-c1">1</span>};
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> {n<span class="pl-k">:</span> <span class="pl-c1">1</span>};
 <span class="pl-k">var</span> bar <span class="pl-k">=</span> foo;
-foo.<span class="pl-c1">x</span> <span class="pl-k">=</span> foo <span class="pl-k">=</span> {n<span class="pl-k">:</span> <span class="pl-c1">2</span>};</pre></div>
+<span class="pl-smi">foo</span>.<span class="pl-c1">x</span> <span class="pl-k">=</span> foo <span class="pl-k">=</span> {n<span class="pl-k">:</span> <span class="pl-c1">2</span>};</pre></div>
 
 <h4>
 <a id="fun-questions" class="anchor" href="#fun-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fun Questions:</h4>
@@ -313,13 +304,15 @@ foo.<span class="pl-c1">x</span> <span class="pl-k">=</span> foo <span class="pl
 <p>This document started in 2009 as a collaboration of <a href="https://twitter.com/paul_irish">@paul_irish</a> <a href="https://twitter.com/bentruyman">@bentruyman</a> <a href="https://twitter.com/cowboy">@cowboy</a> <a href="https://twitter.com/ajpiano">@ajpiano</a>  <a href="https://twitter.com/slexaxton">@SlexAxton</a> <a href="https://twitter.com/boazsender">@boazsender</a> <a href="https://twitter.com/miketaylr">@miketaylr</a> <a href="https://twitter.com/vladikoff">@vladikoff</a> <a href="https://twitter.com/gf3">@gf3</a> <a href="https://twitter.com/jon_neal">@jon_neal</a> <a href="https://twitter.com/sambreed">@sambreed</a> and <a href="https://twitter.com/iansym">@iansym</a>.</p>
 
 <p>It has since received contributions from over <a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors">100 developers</a>.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/h5bp">h5bp</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/liu1084/Front-end-Developer-Interview-Questions">Front-end-developer-interview-questions</a> is maintained by <a href="https://github.com/liu1084">liu1084</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+
+    </section>
+
+  
   </body>
 </html>
